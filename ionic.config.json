@@ -1,0 +1,7 @@
+{
+  "name": "back-button-test",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
