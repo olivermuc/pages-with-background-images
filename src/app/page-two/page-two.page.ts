@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner/ngx';
 
 @Component({
@@ -19,5 +19,5 @@ export class PageTwoPage {
         console.log('Error', err);
       });
   }
-  
+
 }

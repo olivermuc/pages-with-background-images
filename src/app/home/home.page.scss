@@ -1,1 +1,16 @@
-
+:host {
+    background: url(../../assets/imgs/page-one.jpg) no-repeat 0 0;
+    background-size: cover;
+    ion-header {
+        backdrop-filter: none;
+        ion-toolbar {
+            --color: #fff;
+            --border-width: 0;
+            --background: none;
+        }
+    }
+    ion-content {
+        --color: #fff;
+        --background: none;
+    }
+}
