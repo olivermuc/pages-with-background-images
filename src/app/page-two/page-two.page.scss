@@ -1,16 +1,24 @@
 :host {
-    background: url(../../assets/imgs/page-two.jpg) no-repeat 0 0;
-    background-size: cover;
     ion-header {
         backdrop-filter: none;
         ion-toolbar {
-            --color: #fff;
+            --color: var(--ion-color-light);
             --border-width: 0;
-            --background: none;
+        }
+        .sub-header {
+            padding: 0 1rem;
+            color: var(--ion-color-light);
         }
     }
     ion-content {
-        --color: #fff;
-        --background: none;
+        --color: var(--ion-color-light);
+    }
+    ion-footer {
+        ion-toolbar {
+            ion-segment-button {
+                --color: var(--ion-color-light);
+                --border-color: var(--ion-color-light);
+            }
+        }
     }
 }
