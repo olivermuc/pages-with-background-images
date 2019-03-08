@@ -1,5 +1,7 @@
 :host {
     ion-header {
+        position: absolute;
+        top: 0;
         backdrop-filter: none;
         ion-toolbar {
             --color: var(--ion-color-light);
@@ -13,9 +15,14 @@
     }
     ion-content {
         --color: var(--ion-color-light);
-        --background: url(../../assets/imgs/page-one.jpg) 0 0 no-repeat;
+        --background: none;
+        background: url(../../assets/imgs/page-one.jpg) 0 0 no-repeat;
+        --offset-top: -44px !important;
+        --offset-bottom: -44px !important;
     }
     ion-footer {
+        position: absolute;
+        bottom: 0;
         ion-toolbar {
             --background: none;
             ion-segment-button {
