@@ -1,9 +1,12 @@
 :host {
+    background: url(../../assets/imgs/page-one.jpg) no-repeat 0 0;
+    background-size: cover;
     ion-header {
         backdrop-filter: none;
         ion-toolbar {
             --color: var(--ion-color-light);
             --border-width: 0;
+            --background: none;
         }
         .sub-header {
             padding: 0 1rem;
@@ -12,9 +15,11 @@
     }
     ion-content {
         --color: var(--ion-color-light);
+        --background: none;
     }
     ion-footer {
         ion-toolbar {
+            --background: none;
             ion-segment-button {
                 --border-color: var(--ion-color-light);
                 --color: var(--ion-color-light);
