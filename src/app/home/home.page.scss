@@ -1,6 +1,4 @@
 :host {
-    background: url(../../assets/imgs/page-one.jpg) no-repeat 0 0;
-    background-size: cover;
     ion-header {
         backdrop-filter: none;
         ion-toolbar {
@@ -15,7 +13,7 @@
     }
     ion-content {
         --color: var(--ion-color-light);
-        --background: none;
+        --background: url(../../assets/imgs/page-one.jpg) 0 0 no-repeat;
     }
     ion-footer {
         ion-toolbar {
